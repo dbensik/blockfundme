@@ -91,3 +91,19 @@ NOTE: if testing with the currently deployed instance of the Campaign Factory co
 - Deploy site to IPFS
 - Integrate uPort
 - Custom domain from ENS
+
+## Helpful Links:
+- [Ethernaut](https://ethernaut.zeppelin.solutions/)
+- [Ethereum Name Service](https://ens.domains/)
+- [ENS Domain Registration](https://www.myetherwallet.com/#ens)
+- [Ethereum Package Registry](https://www.ethpm.com/)
+- [Infura](https://infura.io/)
+- [IPFS](https://ipfs.io/)
+- [LLL](https://media.consensys.net/an-introduction-to-lll-for-ethereum-smart-contract-development-e26e38ea6c23)
+- [MetaMask](https://metamask.io/)
+- [Meta Mask Ether Faucet](https://faucet.metamask.io/)
+- [OpenZeppelin](https://openzeppelin.org/)
+- [Oraclize](http://docs.oraclize.it/#home)
+- [Truffle Suite](https://truffleframework.com/) | [Boxes](https://truffleframework.com/boxes) | [react-uport](https://truffleframework.com/boxes/react-uport)
+- [uPort](https://developer.uport.me/)
+- [Vyper](https://github.com/ethereum/vyper)
