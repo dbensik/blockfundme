@@ -27,5 +27,5 @@ To install and test locally
  git clone https://github.com/dbensik/blockfundme
  npm install
  ```
- In ethereum/web3.js add your own infura API key
- In ethereum/deploy.js add your own infura API key and wallet mnemonic
+ In `ethereum/web3.js` add your own infura API key
+ In `ethereum/deploy.js` add your own infura API key and wallet mnemonic
