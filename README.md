@@ -4,6 +4,8 @@
 
 BlockFundMe is an prototype decentralized application built on the Ethereum blockchain and a take on the crowd-funding business model.  This dApp was created as an educational exercise as part of the 2018 ConsenSys Developer Program.
 
+As of now, the app is not live due an unresolved issues regarding the availability of the yet-to-be created contracts from the contract factory when running `npm run build`.
+
 ## Table of Contents
 1. [Introduction](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#introduction)
 2. [Project Description](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#project-description)
