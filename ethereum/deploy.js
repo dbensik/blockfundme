@@ -1,9 +1,11 @@
 const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
+let mnemonic = '';
+let API_KEY = "";
 const provider = new HDWalletProvider(
-  'student return odor forest endless year pull vague pave magic interest donate',
-  'https://rinkeby.infura.io/v3/dc1041925d9e49a68156f3fe3a651424'
+  mnemonic,
+  'https://rinkeby.infura.io/v3/' + API_Key
 );
 
 const web3 = new Web3(provider);
