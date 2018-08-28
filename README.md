@@ -10,7 +10,9 @@ BlockFundMe is an prototype decentralized application built on the Ethereum bloc
 
 ## Project Description
 
-This project 
+The goal of this project was to develop a better understanding of writing and deploying smart contracts with a secondary goal of developing the necessary skills to create a functional frontend for decentralized applications.
+
+
 
 ### Technology
   - The ethereum-related aspects of this project were created without Truffle in an attempt to get a better fundamental understanding of what happens behind the scenes with Truffle.
