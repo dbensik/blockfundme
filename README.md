@@ -9,10 +9,11 @@ As of now, the app is not live due an unresolved issues regarding the availabili
 ## Table of Contents
 1. [Introduction](https://github.com/dbensik/blockfundme/blob/master/README.md#introduction)
 2. [Project Description](https://github.com/dbensik/blockfundme/blob/master/README.md#project-description)
-3. [Tech](https://github.com/dbensik/blockfundme/blob/master/README.md#tech)
-4. [Setup](https://github.com/dbensik/blockfundme/blob/master/README.md#setup)
-5. [Testing](https://github.com/dbensik/blockfundme/blob/master/README.md#testing)
-6. [To Do](https://github.com/dbensik/blockfundme/blob/master/README.md#to-do)
+3. [Screenshots]()
+4. [Tech](https://github.com/dbensik/blockfundme/blob/master/README.md#tech)
+5. [Setup](https://github.com/dbensik/blockfundme/blob/master/README.md#setup)
+6. [Testing](https://github.com/dbensik/blockfundme/blob/master/README.md#testing)
+7. [To Do](https://github.com/dbensik/blockfundme/blob/master/README.md#to-do)
 
 ## Project Description
 
