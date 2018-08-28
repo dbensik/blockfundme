@@ -12,10 +12,11 @@ BlockFundMe is an prototype decentralized application built on the Ethereum bloc
 
 The goal of this project was to develop a better understanding of writing and deploying smart contracts with a secondary goal of developing the necessary skills to create a functional frontend for decentralized applications.
 
+The decision not to use TruffleSuite for this project is the result of first using Truffle to develop some earlier applications and wanting a better understanding of what happens behind the scenes, which I think is critical before using a tool such as Truffle.
 
 
 ### Technology
-  - The ethereum-related aspects of this project were created without Truffle in an attempt to get a better fundamental understanding of what happens behind the scenes with Truffle.
+  - Remix for initial development and testing of smart contracts 
   - ReactJS and NextJS for frontend
   - Semantic UI for frontend theme
   - Infura.io for deploying contract to Rinkeby test network
@@ -50,4 +51,11 @@ node deploy.js
 ```
 copy deployed contract address and past into ethereum/factory.js
 
-then run `npm run dev` from project root directory
+then run `npm run dev` from project root directory and navigate to `localhost:3000`
+
+## To Do
+- Deploy dApp to hosting provider
+  - currenttly trouble shooting issue during build process where  
+- Integrate OpenZeppelin Ownable contract to replace current 'restricted' modifier
+- Add Oracle service
+- Develop and add additional contract in Vyper
