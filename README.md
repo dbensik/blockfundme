@@ -29,3 +29,23 @@ To install and test locally
  ```
  In `ethereum/web3.js` add your own infura API key
  In `ethereum/deploy.js` add your own infura API key and wallet mnemonic
+ 
+To test
+
+first compile contracts in /ethereum then run tests from project root directory
+
+```
+cd ethereum
+node compile.js
+cd ../
+npm run test
+```
+To run dApp locally
+
+```
+cd ethereum
+node deploy.js
+```
+copy deployed contract address and past into ethereum/factory.js
+
+then run `npm run dev` from project root directory
