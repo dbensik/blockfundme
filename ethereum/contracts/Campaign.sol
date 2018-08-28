@@ -1,5 +1,6 @@
 pragma solidity ^0.4.20;
 
+// CampaignFactory implemented to allow users to create new Campaign contracts from the originally deployed CampaignFactory
 contract CampaignFactory {
     address[] public deployedCampaigns;
 
@@ -30,6 +31,8 @@ contract Campaign {
     mapping(address => bool) public supporters;
     uint public supportersCount;
 
+    // restricted modifier restricts access to certain functions to the manager or the caller of the contract
+    // This will be replaced by OpenZeppelin Ownable functionality in the future
     modifier restricted() {
         require(msg.sender == manager);
         _;
@@ -71,9 +74,12 @@ contract Campaign {
 
         require(project.supporterCount > (supportersCount / 2));
         require(!project.complete);
-
-        project.recipient.transfer(project.value);
+        // by setting the project.complete flag to true before transfering the funds
+        // this prevents repeated calls to the transfer function before project.complete
+        // is set to false
         project.complete = true;
+        project.recipient.transfer(project.value);
+        
     }
 
     function getDetails() public view returns (uint, uint, uint, uint, address) {
@@ -90,10 +96,12 @@ contract Campaign {
         return projects.length;
     }
 
+    // self destruct function callable by contract creator
     function kill() public restricted {
         selfdestruct(manager);
     }
 
+    // this function will prevent ether from being forcibly sent to the contract
     function () public payable {
         revert();
     }
