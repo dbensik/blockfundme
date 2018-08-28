@@ -20,6 +20,8 @@ The goal of this project was to develop a better understanding of writing and de
 
 The decision not to use TruffleSuite for this project is the result of first using Truffle to develop some earlier applications and wanting a better understanding of what happens behind the scenes, which I think is critical before using a tool such as Truffle.
 
+BlockFundMe is a crowdfunding app built as a decentralized app on to of the Ethereum blockchain.  User can create new Campaings by calling the `createCampaign()` function from the `CampaingFactory` that has been deployed to the Rinkeby test network.  Once a campaign has been created, users can add details about the campaign and why they are raising funds.  They can also add specific Projects to the Campaign.  Visitors can contribute to a Campaign and are then able to support specific Projects by Approving them.  Once a Project has support of >50% it will be Finalized by the Campaign creator and the funds will be transfered from the contract to the contract creator.
+
 
 ## Tech
   - Remix for initial development and testing of smart contracts 
@@ -78,7 +80,9 @@ The following tests are run successfully
 NOTE: if testing with the currently deployed instance of the Campaign Factory contract, the first campaign at `0xD316756e5366993994a5EE8d8cce617a80681f64` was killed using the kill function in the contract connected to the "Cancel this Campaign" button on `http://localhost:3000/campaigns/0xD316756e5366993994a5EE8d8cce617a80681f64`.  This site now throws an error as I have not yet resolved how to remove this Campaign from the list of open campaigns.
 
 ## To Do
-- Deploy dApp to live site
+- Add minimum number of supporters required to Finalize Project in a Campaign .
+- Finish developing frontend.  Adding details and descriptions to each page.
+  - Deploy dApp to live site
   - currenttly trouble shooting issue during build process reguarding the dynamic URLs
 - Integrate OpenZeppelin Ownable contract to replace current 'restricted' modifier
 - Add Oracle service
