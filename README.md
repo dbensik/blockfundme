@@ -11,7 +11,8 @@ As of now, the app is not live due an unresolved issues regarding the availabili
 2. [Project Description](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#project-description)
 3. [Tech](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#tech)
 4. [Setup](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#setup)
-5. [To Do](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#todo)
+5. [Testing](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#testing)
+6. [To Do](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#todo)
 
 ## Project Description
 
@@ -57,6 +58,22 @@ node deploy.js
 copy deployed contract address and past into ethereum/factory.js
 
 then run `npm run dev` from project root directory and navigate to `localhost:3000`
+
+## Testing
+
+The following tests are run successfully
+
+  :white_check_mark: Deploys a factory and a campaign
+  
+  :white_check_mark: Correctly designates function caller as campaign manager
+  
+  :white_check_mark: Allows people to fund projects and marks them as supporters
+  
+  :white_check_mark: Requires a minimum contribution
+  
+  :white_check_mark: Allows manager to make a project (44ms)
+  
+  :white_check_mark: Handles projects 
 
 ## To Do
 - Deploy dApp to hosting provider
