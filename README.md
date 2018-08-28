@@ -7,12 +7,12 @@ BlockFundMe is an prototype decentralized application built on the Ethereum bloc
 As of now, the app is not live due an unresolved issues regarding the availability of the yet-to-be created contracts from the contract factory when running `npm run build`.
 
 ## Table of Contents
-1. [Introduction](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#introduction)
-2. [Project Description](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#project-description)
-3. [Tech](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#tech)
-4. [Setup](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#setup)
-5. [Testing](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#testing)
-6. [To Do](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#todo)
+1. [Introduction](https://github.com/dbensik/blockfundme/blob/master/README.md#introduction)
+2. [Project Description](https://github.com/dbensik/blockfundme/blob/master/README.md#project-description)
+3. [Tech](https://github.com/dbensik/blockfundme/blob/master/README.md#tech)
+4. [Setup](https://github.com/dbensik/blockfundme/blob/master/README.md#setup)
+5. [Testing](https://github.com/dbensik/blockfundme/blob/master/README.md#testing)
+6. [To Do](https://github.com/dbensik/blockfundme/blob/master/README.md#to-do)
 
 ## Project Description
 
