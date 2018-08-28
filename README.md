@@ -74,11 +74,15 @@ The following tests are run successfully
   :white_check_mark: Allows manager to make a project (44ms)
   
   :white_check_mark: Handles projects 
+  
+NOTE: if testing with the currently deployed instance of the Campaign Factory contract, the first campaign at `0xD316756e5366993994a5EE8d8cce617a80681f64` was killed using the kill function in the contract connected to the "Cancel this Campaign" button on `http://localhost:3000/campaigns/0xD316756e5366993994a5EE8d8cce617a80681f64`.  This site now throws an error as I have not yet resolved how to remove this Campaign from the list of open campaigns.
 
 ## To Do
-- Deploy dApp to hosting provider
+- Deploy dApp to live site
   - currenttly trouble shooting issue during build process reguarding the dynamic URLs
 - Integrate OpenZeppelin Ownable contract to replace current 'restricted' modifier
 - Add Oracle service
 - Develop and add additional contract in Vyper
 - Deploy site to IPFS
+- Integrate uPort
+- Custom domain from ENS
