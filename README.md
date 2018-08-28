@@ -7,6 +7,9 @@ BlockFundMe is an prototype decentralized application built on the Ethereum bloc
 ## Table of Contents
 1. [Introduction](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#introduction)
 2. [Project Description](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#project-description)
+3. [Tech](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#tech)
+4. [Setup](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#setup)
+5. [To Do](https://github.com/dbensik/Blockchain-Pick-Em/blob/master/README.md#todo)
 
 ## Project Description
 
@@ -15,7 +18,7 @@ The goal of this project was to develop a better understanding of writing and de
 The decision not to use TruffleSuite for this project is the result of first using Truffle to develop some earlier applications and wanting a better understanding of what happens behind the scenes, which I think is critical before using a tool such as Truffle.
 
 
-### Technology
+## Tech
   - Remix for initial development and testing of smart contracts 
   - ReactJS and NextJS for frontend
   - Semantic UI for frontend theme
@@ -23,7 +26,7 @@ The decision not to use TruffleSuite for this project is the result of first usi
   
  ## Setup
  
-To install and test locally
+To install, run, and test locally
 
  ```
  mkdir blockfundme && cd blockfundme
