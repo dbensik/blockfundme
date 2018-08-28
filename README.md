@@ -29,6 +29,8 @@ BlockFundMe is a crowdfunding app built as a decentralized app on to of the Ethe
   - ReactJS and NextJS for frontend
   - Semantic UI for frontend theme
   - Infura.io for deploying contract to Rinkeby test network
+  - ganache-cli for running local network
+  - MetaMask for iteracting with ethereum blockchain through browser
   
  ## Setup
  
