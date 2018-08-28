@@ -55,7 +55,8 @@ then run `npm run dev` from project root directory and navigate to `localhost:30
 
 ## To Do
 - Deploy dApp to hosting provider
-  - currenttly trouble shooting issue during build process where  
+  - currenttly trouble shooting issue during build process reguarding the dynamic URLs
 - Integrate OpenZeppelin Ownable contract to replace current 'restricted' modifier
 - Add Oracle service
 - Develop and add additional contract in Vyper
+- Deploy site to IPFS
